@@ -53,7 +53,7 @@
     /* Adicionado: */
     -webkit-text-fill-color: transparent;
   }
-  
+ 
 
 /* display */
 
@@ -82,4 +82,36 @@
 .pequeno {
     width: 33%;
 }
+
+/* Botão login */
+.btn-login {
+    color: #fefefe;
+    background-color: #E100FF;
+    height: 6vh;
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 500ms;
+    
+}
+
+.btn-login:hover {
+    background-color: #6C9FFF;
+    transition: 500ms;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.btn-login a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.nav-item {
+    color: #fefefe;
+}
+
 

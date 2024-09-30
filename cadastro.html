@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+    <title>FESHOW!</title>
+</head>
+<body>
+  <header>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand gradient d-flex align-items-center justify-content-center" href="index.html"><i class="bi bi-headset fs-3"></i> FESHOW!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+           </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Eventos
+              </a>
+  
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Pesquisar</a></li>
+                <li><a class="dropdown-item" href="#">Criar</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Editar</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar Aqui" aria-label="Search">
+            <button class="btn btn-login text-white" type="submit">Pesquise</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- FIM DO MENU -->
+  </header>
+  <main>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Cadastro de Evento Cultural</h1>
+      <form id="form-evento">
+        <!-- Início do formulário -->
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="titulo" placeholder="TituloEvento" required />
+          <label for="floatinginput" class="form-label">Título do Evento:</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea
+            class="form-control"
+            id="descricao"
+            rows="3"
+            placeholder="descricao"
+            required
+          ></textarea>
+          <label for="descricao" class="form-label">Descrição:</label>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="data" class="form-label">Data do Evento:</label>
+            <input type="date" class="form-control" id="data" required />
+          </div>
+          <div class="col-md-6">
+            <label for="horario" class="form-label">Horário do Evento:</label>
+            <input type="time" class="form-control" id="horario" required />
+          </div>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="local" placeholder="local" required />
+          <label for="local" class="form-label">Local do Evento:</label>
+        </div>
+        <div class="mb-3">
+          <label for="Imagem" class="form-label">Imagem:</label>
+          <input type="file" class="form-control" id="img" required />
+        </div>
+        <select class="form-select mb-3" aria-label="Default select example">
+          <option selected>Selecione uma categoria</option>
+          <option value="1">Culturais</option>
+          <option value="2">Esportivos</option>
+          <option value="3">Gastronômicos</option>
+          <option value="4">Tecnologicos</option>
+          <option value="5">Sociais</option>
+          <option value="6">Saúde e Bem-Estar</option>
+          <option value="7">Sustentabilidade</option>
+          <option value="8">Infantis</option>
+          <option value="9">Educacionais</option>
+          <option value="10">Outro...</option>
+
+        </select>
+        <select class="form-select mb-3" aria-label="Default select example">
+          <option selected>Classificação Indicativa</option>
+          <option value="1">Livre para todos os públicos</option>
+          <option value="2">Maior que 10 anos</option>
+          <option value="3">Maior que 12 anos</option>
+          <option value="4">Maior que 14 anos</option>
+          <option value="5">Maior que 16 anos</option>
+          <option value="6">Maior que 18 anos</option>
+          
+
+        </select>
+        <!-- Adicione mais campos de acordo com a necessidade -->
+          <button type="submit" class="btn btn-primary">Cadastrar Evento</button>
+      </form>
+      <!-- Fim do formulário -->
+    </div>
+  </main>
+  <footer>
+    <div class="container-fluid text-bg-dark ">
+      <div class="row g-2 mt-5">
+        <div class="col-12 col-md-4">
+          <p>Copyright &copy; Juliano Corrêa Amaro 2024
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <p>Endereço:</p>
+          <p>Avenida Kazumi Yoshimura, 430, Distrito Industrial - Vila Isabel, Itapeva - SP, 18410-480</p>
+        </div>
+        <div class="col-12 col-md-4">
+          <p>Patrocionador:</p>
+          <p>
+            <a href="https://aws.amazon.com/pt/">AWS</a>
+            <a href="https://www.spacex.com/" target="_blank">SPACEX</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
