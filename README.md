@@ -1,6 +1,6 @@
 ![Não foi possivel carregar a imagem](/assets/img/readme/‘.jpg)
 
-<h1 align="center">Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva</h1>
+<h2 align="center">Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva</h2>
 
 <h1 align="center">FESHOW!</h1>
 
