@@ -1,5 +1,7 @@
 ![Não foi possivel carregar a imagem](/assets/img/readme/‘.jpg)
-### Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva
+
+<h1 align="center">Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva</h1>
+
 <h1 align="center">FESHOW!</h1>
 
 **Descrição:**
