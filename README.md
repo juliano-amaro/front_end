@@ -23,7 +23,7 @@ A FESHOW tem como objetivo atender uma problematica atual da cidade de Itapeva-S
  - JAVASCRIPT
 ## Autores
 - Juliano Corrêa Amaro - juliano-amaro - juliano.amaro07@gmail.com
-- Paulo Henrique dos Santos - GitHub - Email
+- Paulo Henrique dos Santos - Pedrao345 - Email
 - Pedro Henrique de Paula Renzende - pedro-rezende - pedro.paula.senai@gmail.com
 - Igor Gabriel Rodrigues Martins - GitHub - igor.martins.senai@gmail.com
 ## Licença
