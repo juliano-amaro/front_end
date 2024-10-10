@@ -19,12 +19,17 @@ A FESHOW tem como objetivo atender uma problematica atual da cidade de Itapeva-S
  - Os usuarios ter mais informações clicando no evento desejado;
  - Nossos usuarios podem pesquisar os eventos desejados.
 ## Tecnologias Utilizadas
-- **Linguagem/Frameworks:**
- - FIGMA
- - BOOTSTRAP
- - HTML
- - CSS
- - JAVASCRIPT
+**Linguagem/Frameworks:**
+ 
+ ![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+ ![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+ 
+ ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+ ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+ 
+ ![JAVACRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ## Autores
 - Juliano Corrêa Amaro - juliano-amaro - juliano.amaro07@gmail.com
 - Paulo Henrique dos Santos - Pedrao345 - Email
