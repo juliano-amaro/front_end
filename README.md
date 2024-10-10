@@ -12,7 +12,7 @@ A FESHOW tem como objetivo atender uma problematica atual da cidade de Itapeva-S
 * [Autores](#autores)
 * [Licença](#licença)
 ## Status do Projeto
-**Status**
+**Status:**
 
 🚧 Projeto em desenvolvimento 🚧
 ## Funcionalidades
@@ -36,8 +36,8 @@ A FESHOW tem como objetivo atender uma problematica atual da cidade de Itapeva-S
  ![JAVACRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ## Autores
 - Juliano Corrêa Amaro - juliano-amaro - juliano.amaro07@gmail.com
-- Paulo Henrique dos Santos - Pedrao345 - Email
-- Pedro Henrique de Paula Renzende - pedro-rezende - pedro.paula.senai@gmail.com
+- Paulo Henrique dos Santos - GitHub - Email
+- Pedro Henrique de Paula Renzende - Pedrao345 - pedro.paula.senai@gmail.com
 - Igor Gabriel Rodrigues Martins - GitHub - igor.martins.senai@gmail.com
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
